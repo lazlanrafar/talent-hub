@@ -1,0 +1,44 @@
+#company {
+  a {
+    color: #000;
+  }
+  .company-item {
+    .company-logo {
+      width: 65px;
+      height: 65px;
+      object-fit: contain;
+    }
+    .company-title {
+      margin-bottom: 0;
+
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .company-location {
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+    .company-category {
+      margin-bottom: 0;
+      span {
+        font-size: 0.9rem;
+      }
+    }
+    .company-job {
+      margin-bottom: 1rem;
+      span {
+        font-size: 0.9rem;
+      }
+    }
+    .company-time {
+      margin-bottom: 0;
+      span {
+        font-size: 0.8rem;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
