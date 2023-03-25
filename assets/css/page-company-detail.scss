@@ -1,0 +1,43 @@
+#company-detail {
+  p {
+    font-size: 1rem;
+  }
+
+  .table-custom {
+    th {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #6c757d;
+
+      min-width: 200px;
+    }
+    td {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+
+  .section-loker {
+    h4 {
+      color: #37517e;
+    }
+    .loker-item {
+      border-bottom: 1px solid #e9ecef;
+      margin-bottom: 1rem;
+
+      .loker-title {
+        font-size: 1rem;
+        margin-bottom: 0;
+        color: #013289;
+      }
+      .loker-location {
+        font-size: 0.9rem;
+        color: #6c757d;
+      }
+      .loker-date {
+        font-size: 0.8rem;
+        color: #6c757d;
+      }
+    }
+  }
+}
