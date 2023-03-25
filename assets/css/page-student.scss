@@ -1,0 +1,27 @@
+#student {
+  .student-items {
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 2rem;
+
+    .student-title {
+      color: #28395a;
+      font-size: 1.5rem;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -o-transition: 0.4s;
+      transition: 0.4s;
+    }
+    P {
+      color: #6d6d6d;
+      font-size: 0.9rem;
+    }
+
+    &:hover {
+      box-shadow: 0px 10px 10px 0px rgba(34, 41, 72, 0.05);
+    }
+  }
+}
