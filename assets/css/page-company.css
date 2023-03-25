@@ -5,6 +5,9 @@
 #company input:focus,
 #company input:active,
 #company input:hover,
+#company select:focus,
+#company select:active,
+#company select:hover,
 #company textarea:focus,
 #company textarea:active,
 #company textarea:hover {
