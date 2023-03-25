@@ -2,6 +2,18 @@
   a {
     color: #000;
   }
+
+  button,
+  input,
+  textarea {
+    &:focus,
+    &:active,
+    &:hover {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
   .company-item {
     .company-logo {
       width: 65px;
@@ -38,7 +50,7 @@
     }
 
     &:hover {
-      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 3px 0 #4154f1;
     }
   }
 }

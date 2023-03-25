@@ -1,6 +1,16 @@
 #company a {
   color: #000;
 }
+#company button:focus, #company button:active, #company button:hover,
+#company input:focus,
+#company input:active,
+#company input:hover,
+#company textarea:focus,
+#company textarea:active,
+#company textarea:hover {
+  outline: none !important;
+  box-shadow: none !important;
+}
 #company .company-item .company-logo {
   width: 65px;
   height: 65px;
@@ -35,5 +45,5 @@
   font-size: 0.8rem;
 }
 #company .company-item:hover {
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px 0 #4154f1;
 }/*# sourceMappingURL=page-company.css.map */
