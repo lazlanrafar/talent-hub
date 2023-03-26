@@ -1,19 +1,3 @@
-#company a {
-  color: #000;
-}
-#company button:focus, #company button:active, #company button:hover,
-#company input:focus,
-#company input:active,
-#company input:hover,
-#company select:focus,
-#company select:active,
-#company select:hover,
-#company textarea:focus,
-#company textarea:active,
-#company textarea:hover {
-  outline: none !important;
-  box-shadow: none !important;
-}
 #company .company-item .company-logo {
   width: 65px;
   height: 65px;
@@ -22,6 +6,7 @@
 }
 #company .company-item .company-title {
   margin-bottom: 0;
+  color: black;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -48,5 +33,5 @@
   font-size: 0.8rem;
 }
 #company .company-item:hover {
-  box-shadow: 0 0 3px 0 #4154f1;
+  box-shadow: #c9deff 2px 6px 15px;
 }/*# sourceMappingURL=page-company.css.map */
