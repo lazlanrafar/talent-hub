@@ -1,0 +1,21 @@
+#job {
+  .job-item {
+    .job-title {
+      font-size: 1rem;
+      color: black;
+    }
+    .job-company {
+      font-size: 0.9rem;
+    }
+    .job-desc {
+      font-size: 0.9rem;
+    }
+    .job-date {
+      font-size: 0.9rem;
+    }
+
+    &:hover {
+      box-shadow: #c9deff 2px 6px 15px;
+    }
+  }
+}

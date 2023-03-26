@@ -1,0 +1,16 @@
+#job .job-item .job-title {
+  font-size: 1rem;
+  color: black;
+}
+#job .job-item .job-company {
+  font-size: 0.9rem;
+}
+#job .job-item .job-desc {
+  font-size: 0.9rem;
+}
+#job .job-item .job-date {
+  font-size: 0.9rem;
+}
+#job .job-item:hover {
+  box-shadow: #c9deff 2px 6px 15px;
+}/*# sourceMappingURL=page-job.css.map */
